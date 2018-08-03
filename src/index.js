@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 import 'tachyons';
-import App from './App';
+import App from './containers/App';
 // Card is default, dont need to destructure it
 // export default [THING GOES HERE] uses capitalized word
 // robots is not default, need to destructure it

@@ -53,3 +53,8 @@ return <div>{cardArray}</div>;
 };
 
 export default CardList;
+
+React has 3 things:
+props -- properties which you can pass through to other react components
+state -- think of react components as a tree(app is root node, SearchBox and CardList are its children, use state to talk between the children of any node)
+children
