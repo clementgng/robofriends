@@ -2,8 +2,7 @@ import React from 'react';
 import Card from './card.js';
 // import { robots, cats } from './robots';
 // in JSX use map instead of forEach, map returns an array, forEach retuns nothing
-{
-  /*const CardList = ({ robots }) => {
+  const CardList = ({ robots }) => {
   const cardComponent = robots.map((robot, i) => {
     return (
       <Card
@@ -15,10 +14,9 @@ import Card from './card.js';
     );
   }); // forEach/map ends here.. always return when using map
   return <div>{cardComponent}</div>;
-};*/
-}
+};
 
-class CardList extends React.Component {
+/*class CardList extends React.Component {
   render() {
     const selfprop = this.props;
     const { robots } = selfprop;
@@ -34,6 +32,6 @@ class CardList extends React.Component {
     }); // forEach/map ends here.. always return when using map
     return <div>{cardComponent}</div>;
   }
-}
+}*/
 
 export default CardList;
